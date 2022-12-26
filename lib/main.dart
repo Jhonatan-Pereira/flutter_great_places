@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       ),
       home: const PlacesListPage(),
       routes: {
-        AppRoutes.PLACE_FORM: (ctx) => PlaceFormPage(),
+        AppRoutes.PLACE_FORM: (ctx) => const PlaceFormPage(),
       },
     );
   }
